@@ -21,7 +21,7 @@ export const DessertCard = ({ dessert, onAddToCart }: DessertCardProps) => {
   );
 
   return (
-    <Card className="group hover:shadow-xl transition-all duration-300 hover:scale-105 border-pink-100">
+    <Card className="group hover:shadow-xl transition-all duration-300 hover:scale-105 border-crumbl-cream">
       <div className="relative overflow-hidden rounded-t-lg">
         <img
           src={dessert.image}
@@ -29,7 +29,7 @@ export const DessertCard = ({ dessert, onAddToCart }: DessertCardProps) => {
           className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
         />
         {dessert.isNew && (
-          <Badge className="absolute top-2 right-2 bg-pink-500 hover:bg-pink-600">
+          <Badge className="absolute top-2 right-2 bg-crumbl-pink hover:bg-pink-600">
             Новинка
           </Badge>
         )}
@@ -51,7 +51,7 @@ export const DessertCard = ({ dessert, onAddToCart }: DessertCardProps) => {
       <CardContent>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-pink-600">
+            <span className="text-2xl font-bold text-crumbl-pink">
               {dessert.price}₽
             </span>
             <span className="text-sm text-gray-400 line-through">
@@ -63,7 +63,7 @@ export const DessertCard = ({ dessert, onAddToCart }: DessertCardProps) => {
           </div>
         </div>
         <Button
-          className="w-full bg-gradient-to-r from-pink-500 to-cyan-500 hover:from-pink-600 hover:to-cyan-600"
+          className="w-full bg-gradient-to-r from-crumbl-pink to-crumbl-blue hover:from-pink-600 hover:to-cyan-600"
           onClick={() => onAddToCart?.(dessert)}
         >
           <Icon name="Plus" size={16} className="mr-2" />В корзину

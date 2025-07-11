@@ -6,16 +6,16 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="py-20 px-4 bg-gradient-to-br from-pink-50 to-cyan-50"
+      className="py-20 px-4 bg-gradient-to-br from-crumbl-cream to-crumbl-purple"
     >
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-6 text-gray-800">О нас</h2>
             <p className="text-lg text-gray-600 mb-6">
-              Sweet Dreams — это семейная кондитерская, которая создает
-              уникальные десерты с 2018 года. Мы используем только натуральные
-              ингредиенты и авторские рецепты.
+              Crumbl Cookies — это семейная пекарня, которая создает уникальные
+              печенья с 2020 года. Мы используем только натуральные ингредиенты
+              и авторские рецепты.
             </p>
             <div className="space-y-4">
               {ABOUT_FEATURES.map((feature, index) => (

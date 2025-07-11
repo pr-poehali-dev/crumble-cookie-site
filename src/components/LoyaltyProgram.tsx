@@ -7,7 +7,7 @@ interface LoyaltyProgramProps {
 
 export const LoyaltyProgram = ({ loyaltyPoints }: LoyaltyProgramProps) => {
   return (
-    <section className="py-12 bg-gradient-to-r from-pink-500 to-cyan-500 text-white">
+    <section className="py-12 bg-gradient-to-r from-crumbl-pink to-crumbl-blue text-white">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-4">Программа лояльности</h2>
         <p className="text-lg mb-6 opacity-90">
@@ -22,7 +22,7 @@ export const LoyaltyProgram = ({ loyaltyPoints }: LoyaltyProgramProps) => {
           </div>
           <Button
             variant="secondary"
-            className="bg-white text-pink-600 hover:bg-gray-100"
+            className="bg-white text-crumbl-pink hover:bg-gray-100"
           >
             <Icon name="Star" size={16} className="mr-2" />
             Узнать больше

@@ -19,29 +19,29 @@ export const DESSERTS: Dessert[] = [
     id: 1,
     name: "Шоколадное печенье",
     description: "Насыщенный шоколадный вкус с кусочками темного шоколада",
-    price: 120,
-    oldPrice: 150,
-    image: "img/63023d85-be36-43a8-8544-ab024f98239b.jpg",
+    price: 150,
+    oldPrice: 180,
+    image: "img/83e8fc31-751b-4a3a-9c26-083f7988e7eb.jpg",
     rating: 4.9,
     isNew: true,
   },
   {
     id: 2,
-    name: "Мятный капкейк",
-    description: "Освежающий мятный крем с хрустящими кусочками мяты",
+    name: "Розовое печенье",
+    description: "Сладкое клубничное печенье с нежной розовой глазурью",
     price: 180,
     oldPrice: 220,
-    image: "img/e397e561-e386-471c-9c53-c52d55d5e52a.jpg",
+    image: "img/217db6cc-e879-4526-b023-518f44557b94.jpg",
     rating: 4.8,
     isNew: false,
   },
   {
     id: 3,
-    name: "Классическое печенье",
-    description: "Домашнее печенье по традиционному рецепту",
-    price: 90,
-    oldPrice: 120,
-    image: "img/e2985c53-c83a-49c6-9257-fb9b03c6e1cc.jpg",
+    name: "Коричное печенье",
+    description: "Теплое печенье с корицей и кремовой глазурью",
+    price: 170,
+    oldPrice: 200,
+    image: "img/05cb5328-8be1-4cdd-9d6c-8719d61d49fb.jpg",
     rating: 4.7,
     isNew: false,
   },
@@ -52,21 +52,21 @@ export const REVIEWS: Review[] = [
     id: 1,
     name: "Анна К.",
     rating: 5,
-    text: "Лучшие десерты в городе! Свежие и очень вкусные",
+    text: "Лучшие печенья в городе! Как в детстве у бабушки, только лучше!",
     date: "2 дня назад",
   },
   {
     id: 2,
     name: "Михаил Р.",
     rating: 5,
-    text: "Быстрая доставка, отличное качество. Рекомендую!",
+    text: "Невероятно вкусные! Заказываю каждую неделю для всей семьи",
     date: "неделю назад",
   },
   {
     id: 3,
     name: "Елена В.",
     rating: 4,
-    text: "Очень вкусно! Особенно понравился мятный капкейк",
+    text: "Особенно понравилось розовое печенье - нежное и ароматное!",
     date: "2 недели назад",
   },
 ];
@@ -74,14 +74,14 @@ export const REVIEWS: Review[] = [
 export const STATS: StatItem[] = [
   {
     icon: "Users",
-    value: "5000+",
+    value: "10000+",
     label: "Довольных клиентов",
     color: "text-pink-500",
   },
   {
     icon: "Award",
-    value: "50+",
-    label: "Видов десертов",
+    value: "25+",
+    label: "Видов печенья",
     color: "text-cyan-500",
   },
   {
@@ -120,21 +120,21 @@ export const DELIVERY_FEATURES: DeliveryFeature[] = [
 ];
 
 export const ABOUT_FEATURES = [
-  "Натуральные ингредиенты",
-  "Авторские рецепты",
+  "Натуральные ингредиенты премиум-класса",
+  "Авторские рецепты от шеф-кондитера",
   "Свежая выпечка каждый день",
 ];
 
 export const FOOTER_LINKS = {
   menu: [
-    { href: "#", label: "Печенье" },
-    { href: "#", label: "Капкейки" },
-    { href: "#", label: "Торты" },
-    { href: "#", label: "Новинки" },
+    { href: "#", label: "Шоколадные" },
+    { href: "#", label: "Фруктовые" },
+    { href: "#", label: "Классические" },
+    { href: "#", label: "Новинки недели" },
   ],
   contact: {
     phone: "+7 (495) 123-45-67",
-    email: "info@sweetdreams.ru",
-    address: "Москва, ул. Сладкая, 10",
+    email: "info@crumblcookies.ru",
+    address: "Москва, ул. Печенная, 15",
   },
 };

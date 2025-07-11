@@ -9,10 +9,10 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Icon name="Cookie" size={24} className="text-pink-500" />
-              <h3 className="text-xl font-bold">Sweet Dreams</h3>
+              <Icon name="Cookie" size={24} className="text-crumbl-pink" />
+              <h3 className="text-xl font-bold">Crumbl Cookies</h3>
             </div>
-            <p className="text-gray-400">Авторские десерты с любовью</p>
+            <p className="text-gray-400">Лучшие печенья с любовью</p>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Контакты</h4>
@@ -38,7 +38,7 @@ export const Footer = () => {
                 <a
                   key={index}
                   href={item.href}
-                  className="block hover:text-pink-400 transition-colors"
+                  className="block hover:text-crumbl-pink transition-colors"
                 >
                   {item.label}
                 </a>
@@ -51,21 +51,21 @@ export const Footer = () => {
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-gray-400 hover:text-pink-400"
+                className="text-gray-400 hover:text-crumbl-pink"
               >
                 <Icon name="Instagram" size={20} />
               </Button>
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-gray-400 hover:text-pink-400"
+                className="text-gray-400 hover:text-crumbl-pink"
               >
                 <Icon name="Facebook" size={20} />
               </Button>
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-gray-400 hover:text-pink-400"
+                className="text-gray-400 hover:text-crumbl-pink"
               >
                 <Icon name="Twitter" size={20} />
               </Button>
@@ -73,7 +73,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Sweet Dreams. Все права защищены.</p>
+          <p>&copy; 2024 Crumbl Cookies. Все права защищены.</p>
         </div>
       </div>
     </footer>
